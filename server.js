@@ -118,7 +118,7 @@ fs.readdirSync(dirPath, { withFileTypes: true })
 // Handle SPA routing
 app.use(historyApiFallback({
   rewrites: [
-    { from: /^\/api\/.*$/, to: (context) => context.parsedUrl.path },
+    { from: '/api/:path*', to: (context) => context.parsedUrl.path },
   ]
 }));
 
