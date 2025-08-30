@@ -101,5 +101,8 @@
     "serverless-webpack": "^5.13.0",
     "webpack": "^5.88.2",
     "webpack-node-externals": "^3.0.0"
+  },
+  "resolutions": {
+    "path-to-regexp": "^1.7.0"
   }
 }
