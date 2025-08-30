@@ -93,9 +93,6 @@
     "allowJs": true,
     "outDir": "./dist"
   },
-  "resolutions": {
-    "path-to-regexp": "^1.7.0"
-  },
   "devDependencies": {
     "concurrently": "^9.2.1",
     "nodemon": "^3.1.10",
