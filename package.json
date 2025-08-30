@@ -15,7 +15,7 @@
     "url": "https://github.com/sponsors/Lissy93"
   },
   "scripts": {
-    "dev": "netlify dev",
+    "dev": "npx concurrently --names \"frontend,backend\" \"REACT_APP_API_ENDPOINT='http://localhost:3001/api' npx react-scripts start\" \"PLATFORM='node' DISABLE_GUI='true' PORT='3001' API_CORS_ORIGIN='*' npx nodemon server\"",
     "serve": "node server",
     "start": "react-scripts start",
     "build": "react-scripts build",
